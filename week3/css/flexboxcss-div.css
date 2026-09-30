@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+h3{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+.big-box {
+    display: flex;
+    gap: 20px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: wrap;
+    gap: 20px;
+}
+
+.build {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%;
+    padding: 20px;
+    text-align: left;
+}
+
+.bg-image1 {
+    min-height: 300px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    background-image: url("/week3/image/image1.jpg");
+}
+
+.bg-image2 {
+    min-height: 300px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    background-image: url("/week3/image/image2.jpg");
+}
+
+.bg-image3 {
+    min-height: 300px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    background-image: url("/week3/image/image3.jpg");
+}
