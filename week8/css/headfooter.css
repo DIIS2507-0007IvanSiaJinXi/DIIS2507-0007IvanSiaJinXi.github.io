@@ -1,0 +1,52 @@
+.footer {
+    width: auto;
+
+    background-image: url("/week8/image/headfooter.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding-left: 10%;
+
+}
+
+.overlay {
+    display: flex;
+
+    align-items: center;
+    height: 700px;
+    
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.content {
+    width: 420px;
+    color: #ffffff;
+}
+.footer2 {
+    width: auto;
+
+    background-image: url("/week8/image/headfooter2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+    justify-content: center;
+    padding: 45%;
+    padding-top: 20%;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.description {
+    width: 600px;
+    
+    text-align: center;
+}
