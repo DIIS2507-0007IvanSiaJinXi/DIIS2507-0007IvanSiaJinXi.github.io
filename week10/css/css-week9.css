@@ -1,0 +1,211 @@
+.footer {
+    width: 100%;
+    height: 580px;
+    background-image: url("/week9/image/order.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    width: 100%;
+    height: 580px;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+}
+.romaliya {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87px;
+    padding: 0 9%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    width: 40px;
+    height: auto;
+    font-size: 20px;
+}
+.banned1 {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.line {
+    width: 55px;
+    height: 1px;
+    background-color: #ffffff;
+}
+.line2 {
+    width: 55px;
+    height: 1px;
+    background-color: #ffffff;
+}
+.title {
+    font-size: 38px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.food-section {
+    width: 67%;
+    height: 215px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.food-left {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    padding-top: 45px;
+}
+.food {
+    position: relative;
+    margin-left: 40px;
+    align-items: left;
+    margin-top: 20px;
+}
+.food2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    align-items: right;
+    font-weight: bold;
+    font-size: 28px;
+}
+.food-right {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.food3 {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    font-weight: normal;
+}
+.menu {
+    width: 100%;
+    min-height: 800px;
+    background-color: #000000;
+}
+.menu-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+}
+.menu-heading {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.menu-small {
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+.menu-title {
+    width: 190px;
+    height: 27px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.food-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.food-card  {  
+    width: 50%;
+    height: 50%;
+    background-color: #333333;
+    overflow: hidden;
+    display: block;
+}
+.food-details {
+    padding: 20px;
+    color: #ffffff;
+}
+.food-category {
+    font-size: 9px;
+    margin-bottom: 15px;
+}
+.food-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.food-description {
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+.food-price {
+    color: #c9a45f;
+    font-size: 11px;
+    margin-bottom: 18px;
+}
+.food-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    width: 33px;
+    height: 31px;
+    border: 1px solid #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 11px;
+}
+.add-cart {
+    width: 120px;
+    height: 31px;
+    background-color: #c5a46b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 8px;
+}
+.view-cart {
+    width: 100px;
+    height: 31px;
+    border: 1px solid #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 8px;
+}
