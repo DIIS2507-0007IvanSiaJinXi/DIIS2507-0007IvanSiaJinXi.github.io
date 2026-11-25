@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+
+    padding: 0 7%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+}
+
+.left-content {
+    width: 50%;
+    height: 370px;
+
+    background-color: black;
+    color: white;
+
+    padding: 95px 7% 35px;
+}
+
+.main-text {
+    margin-top: 0;
+}
+
+.small-title {
+    font-size: 9px;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.main-text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.description {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    line-height: 1.6;
+    margin-top: 25px;
+    max-width: 360px;
+}
+
+
+.right-content {
+    width: 50%;
+    height: 370px;
+
+    background-image: url("/week11/image/our.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.elegance-section {
+    background-color: white;
+    text-align: center;
+    padding: 75px 7% 0;
+}
+
+.elegance-section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.elegance-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.elegance-images img {
+    display: block;
+    object-fit: cover;
+}
+
+.elegance-side {
+    width: 22%;
+    height: 225px;
+}
+
+.elegance-center {
+    width: 32%;
+    height: 325px;
+}
+
+.gallery-section {
+    background-color: white;
+    text-align: center;
+
+    padding-top: 128px;
+    padding-bottom: 40px;
+}
+
+.gallery-section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+.gallery-section p {
+    font-family: Georgia, serif;
+    font-size: 12px;
+}
+
+.gallery-images {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.gallery-row {
+    display: flex;
+}
+
+.gallery-row img {
+    width: 25%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+.testimonial-section {
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.testimonial-section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 82%;
+    margin: 35px auto 0;
+}
+
+.testimonial-card {
+    width: 32%;
+    height: 215px;
+
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    padding: 38px 14px 20px;
+}
+
+.testimonial-card h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.testimonial-card p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.7;
+
+    margin-top: 28px;
+}
+
+.stars {
+    color: #b69a54;
+    font-size: 25px;
+    margin-top: 22px;
+}
